@@ -7,41 +7,53 @@ import Image from 'next/image';
 const modelHomes = [
   {
     id: 'gothic',
-    name: 'Gothic Home',
+    name: 'Gothic',
     description: 'A stunning Gothic-inspired design featuring elegant architectural elements with modern functionality.',
     images: Array.from({ length: 14 }, (_, i) => `/images/model-homes/gothic/Gothic Home Pkg 51525 (${i + 1}).png`)
   },
   {
     id: 'hacienda',
-    name: 'Hacienda Home',
+    name: 'Hacienda',
     description: 'A beautiful Spanish-influenced hacienda design with open spaces and traditional elements.',
     images: [
-      '/images/model-homes/hacienda/Hacienda Fig 1 3D Exterior Rendering — Dawn Lighting 50125(1).webp',
-      '/images/model-homes/hacienda/Hacienda Fig 2 3D Exterior Rendering — Dawn Lighting 50125(10).webp',
-      '/images/model-homes/hacienda/Hacienda Fig 3 3D Exterior Rendering — Evening Lighting 50125(3).webp',
-      '/images/model-homes/hacienda/Hacienda Fig 4 3D Exterior Rendering — Glasswall Greenhouse 50125(4).webp',
-      '/images/model-homes/hacienda/Hacienda Fig 5 3D Interior Rendering — Dawn Lighting 50125(5).webp',
-      '/images/model-homes/hacienda/Hacienda Fig 6 3D Interior Rendering — Kitchen 50125(6).webp',
-      '/images/model-homes/hacienda/Hacienda Fig 7 3D Interior Rendering — Master Bedroom 50125(7).webp',
-      '/images/model-homes/hacienda/Hacienda Fig 8 3D Exterior Rendering — Plan House cutout 50125(8).webp',
-      '/images/model-homes/hacienda/Hacienda Fig 9 3D Exterior Rendering — Plan Layout 50125(9).png'
+      '/images/model-homes/hacienda-updated/Hacienda 50125(1).png',
+      '/images/model-homes/hacienda-updated/Hacienda 50125(2).png',
+      '/images/model-homes/hacienda-updated/Hacienda 50125(3).png',
+      '/images/model-homes/hacienda-updated/Hacienda 50125(4).png',
+      '/images/model-homes/hacienda-updated/Hacienda 50125(5).png',
+      '/images/model-homes/hacienda-updated/Hacienda 50125(6).png',
+      '/images/model-homes/hacienda-updated/Hacienda 50125(7).png',
+      '/images/model-homes/hacienda-updated/Hacienda 50125(8).png',
+      '/images/model-homes/hacienda-updated/Hacienda 50125(9).png'
     ]
   },
   {
+    id: 'industrial',
+    name: 'Industrial Loft',
+    description: 'A modern industrial loft design with open floor plans, exposed elements, and urban aesthetic.',
+    images: Array.from({ length: 14 }, (_, i) => `/images/model-homes/industrial-loft/11 Industrial Loft 51725 (${i + 1}).png`)
+  },
+  {
+    id: 'coastal',
+    name: 'Coastal Contemporary',
+    description: 'A bright and airy coastal design featuring clean lines, natural materials, and seamless indoor-outdoor living spaces.',
+    images: Array.from({ length: 14 }, (_, i) => `/images/model-homes/coastal-contemporary/6 Coastal Contemporary Fig 1 51625(${i + 1}).png`)
+  },
+  {
     id: 'modern',
-    name: 'Modern Home',
+    name: 'Modern',
     description: 'A contemporary design with clean lines, open spaces, and innovative features for modern living.',
     images: Array.from({ length: 17 }, (_, i) => `/images/model-homes/modern/Modern Home Pkg 51525 (${i + 1}).png`)
   },
   {
     id: 'shotgun',
-    name: 'Shotgun Home',
+    name: 'Shotgun',
     description: 'A traditional shotgun-style home with efficient use of space and classic Southern charm.',
     images: Array.from({ length: 13 }, (_, i) => `/images/model-homes/shotgun/Shotgun 51525 (${i + 1}).png`)
   },
   {
     id: 'mediterranean',
-    name: 'Mediterranean Home',
+    name: 'Mediterranean',
     description: 'An elegant Mediterranean-style home featuring terracotta roofs, stucco walls, and beautiful arches.',
     images: Array.from({ length: 14 }, (_, i) => `/images/model-homes/mediterranean/Mediterranean Pkg 51525 (${i + 1}).png`)
   }
